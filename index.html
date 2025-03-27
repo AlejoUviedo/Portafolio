@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Alejo Uviedo">
+    <meta name="description" content="Portafolio de desarrollo web de Alejo Uviedo">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alejo Uviedo | Desarrollo Web y Diseño de Videojuegos</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="./imagenes/UNRaf_03.png" width="200" alt="">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Juegos">Juegos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Lenguajes">Lenguajes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="./imagenes/tu-foto.jpg" alt="">
+        <h1>Hola, soy Alejo Uviedo</h1>
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Alejo Uviedo</h2>
+        <p class="seccion-texto">Como estudiante de la carrera de Productor de Videojuegos en la UNRAF, combino mi formación académica con dos pasiones fundamentales: el desarrollo web y el diseño creativo. Mi perfil integra:
+
+          Desarrollo técnico: Especial interés en programación web, donde constantemente experimento con nuevas tecnologías y frameworks
+          
+          Diseño digital: Creación y edición de mis propios assets gráficos, buscando siempre mejorar mis habilidades visuales
+          
+          Visión productora: Formación profesional en gestión de proyectos interactivos y desarrollo de experiencias digitales
+          
+          En este espacio podrás descubrir mis proyectos, procesos creativos y mi evolución profesional. </p>
+      </div>
+    </section>
+
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Soy un desarrollador web apasionado por transformar ideas en experiencias digitales. Mi enfoque combina código funcional con diseño intuitivo, creando soluciones web que no solo funcionan, sino que cautivan. Cada proyecto es un nuevo reto donde aplico mi creatividad técnica, desde la estructura limpia del backend hasta los detalles interactivos del frontend. Aquí podrás explorar mi trabajo, donde la tecnología se encuentra con el arte digital</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Python</span>
+            </div>
+          </div>
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Herramientas</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Photoshop</span>
+              <span class="badge text-bg-primary">Figma</span>
+              <span class="badge text-bg-primary">Clip Studio</span>
+            </div>
+          </div>
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Actualmente estoy inmerso en un doble desafío académico: por un lado, amplío constantemente mis conocimientos tecnológicos explorando diversas herramientas y frameworks; por otro, curso la carrera universitaria de Productor de Videojuegos, donde combino mi pasión por el desarrollo digital con habilidades de gestión de proyectos creativos.
+
+              Esta combinación me permite desarrollar tanto competencias técnicas como artísticas, preparándome para los retos de una industria en constante evolución. Cada día profundizo en áreas como programación, diseño de experiencias interactivas y gestión de equipos multidisciplinarios, construyendo así un perfil profesional completo y versátil</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Videojuegos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Juegos -->
+    <section id="Juegos" class="Juegos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Juegos</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+      <div class="container text-center Juegos-contenedor">
+        <div class="row">
+          <!-- Juego 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Juegos">
+              <img src="imagenes/proyecto1.png" alt="Juego 1">
+              <div class="overlay">
+                <p>The Curious Case of Magic Cat</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Juego 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Juegos">
+              <img src="imagenes/proyecto2.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Fisher Cat</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Juego 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Juegos">
+              <img src="imagenes/proyecto3.jpg" alt="Juego 1">
+              <div class="overlay">
+                <p>The Secret Soldier</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/AlejoUviedo/Portafolio" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+    <div id="Lenguajes" class="carrusel-lenguajes">
+      <div class="contenedor-iconos">
+        <div class="icono-lenguaje">
+          <img src="./imagenes/html.png" alt="">
+          <span>HTML5</span>
+        </div>
+        <div class="icono-lenguaje">
+          <img src="./imagenes/css.png" alt="">
+          <span>CSS3</span>
+        </div>
+        <div class="icono-lenguaje">
+          <img src="./imagenes/js.png" alt="">
+          <span>JavaScript</span>
+        </div>
+        <div class="icono-lenguaje">
+          <img src="./imagenes/py.png" alt="">
+          <span>Python</span>
+        </div>
+        <div class="icono-lenguaje">
+          <img src="./imagenes/react.png" alt="">
+          <span>React</span>
+        </div>
+        <div class="icono-lenguaje">
+          <img src="./imagenes/c.png" alt="">
+          <span>C++</span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Alejo Uviedo (2025) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
