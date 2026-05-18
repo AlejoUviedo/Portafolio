@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alejo Uviedo — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=Space+Mono:wght@400;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor-dot" id="custom-cursor"></div>
+  <div class="toast-notification" id="toast-msg">Mensaje enviado con éxito</div>
+
+  <nav class="navbar">
+    <div class="nav-brand">AU_</div>
+    <ul class="nav-menu">
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#projects">Dev</a></li>
+      <li><a href="#design">Diseño</a></li>
+      <li><a href="#cybersec">Ciberseguridad</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <div class="status-badge">Available for work</div>
+      <h1 class="hero-title">Alejo<br><span class="text-accent">Uviedo</span></h1>
+      <p class="hero-subtitle">Dev · Editor · Designer · Sec</p>
+      <p class="hero-lead">
+        Estudiante de Producción de Videojuegos y Analista en Ciberseguridad.
+        Desarrollo componentes frontend, mitigo vectores de ataque y diseño interfaces digitales técnicas con enfoque minimalista.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-main">Ver proyectos</a>
+        <a href="#contact" class="btn btn-secondary">Contactar</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="profile-card">
+        <div class="profile-avatar">
+          <span class="avatar-text">AU</span>
+        </div>
+        <div class="profile-frame"></div>
+        <div class="profile-location">Rafaela · ARG</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="metrics-strip scroll-reveal">
+    <div class="metric-block">
+      <span class="metric-val">3+</span>
+      <span class="metric-label">Años programando</span>
+    </div>
+    <div class="metric-block">
+      <span class="metric-val">8+</span>
+      <span class="metric-label">Tecnologías</span>
+    </div>
+    <div class="metric-block">
+      <span class="metric-val">∞</span>
+      <span class="metric-label">Proyectos en mente</span>
+    </div>
+    <div class="metric-block">
+      <span class="metric-val">01</span>
+      <span class="metric-label">Estudio activo</span>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="section-container">
+      <div class="section-heading scroll-reveal">
+        <span class="section-index">00.</span>
+        <h2>Sobre mí</h2>
+        <div class="heading-divider"></div>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-bio scroll-reveal">
+          <p>
+            Soy desarrollador orientado al software interactivo y la seguridad de los sistemas de información. 
+            Trabajo cruzando metodologías de desarrollo frontend, análisis de malware, programación de gameplay y diseño adaptativo.
+          </p>
+          <p>
+            Me centro en el desarrollo seguro: asegurar que la lógica de negocio resista fallos controlados y que la estructura general de la aplicación esté protegida ante fallos lógicos habituales de la arquitectura.
+          </p>
+          <p>
+            En mi tiempo libre investigo entornos de red locales, diseño prototipos vectoriales y estudio la mitigación de fallos de seguridad críticos.
+          </p>
+        </div>
+
+        <div class="about-focus scroll-reveal">
+          <div class="focus-tag"><span class="indicator-dot"></span>Desarrollador Frontend</div>
+          <div class="focus-tag"><span class="indicator-dot"></span>Analista de Ciberseguridad</div>
+          <div class="focus-tag"><span class="indicator-dot"></span>Programador de Videojuegos</div>
+          <div class="focus-tag"><span class="indicator-dot"></span>Diseñador UI / Visual</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section-container">
+      <div class="section-heading scroll-reveal">
+        <span class="section-index">01.</span>
+        <h2>Stack Tecnológico</h2>
+        <div class="heading-divider"></div>
+      </div>
+
+      <div class="stack-matrix scroll-reveal">
+        <div class="stack-card">
+          <h3>Frontend</h3>
+          <div class="tag-group">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript ES6+</span>
+            <span class="tag">React</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3>Cybersecurity & Sec</h3>
+          <div class="tag-group">
+            <span class="tag">Linux / Bash</span>
+            <span class="tag">Wireshark</span>
+            <span class="tag">Nmap</span>
+            <span class="tag">Burp Suite</span>
+            <span class="tag">Vulnerability Assessment</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3>Diseño & Multimedia</h3>
+          <div class="tag-group">
+            <span class="tag">Figma</span>
+            <span class="tag">Photoshop</span>
+            <span class="tag">Illustrator</span>
+            <span class="tag">Vector Minimal</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3>Game Dev & Scripting</h3>
+          <div class="tag-group">
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3>Herramientas</h3>
+          <div class="tag-group">
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+
+        <div class="stack-card text-muted">
+          <h3>Enfoque Actual</h3>
+          <div class="tag-group">
+            <span class="tag">Three.js</span>
+            <span class="tag">SIEM / Splunk</span>
+            <span class="tag">OSCP Prep</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-container">
+      <div class="section-heading scroll-reveal">
+        <span class="section-index">02.</span>
+        <h2>Proyectos Dev</h2>
+        <div class="heading-divider"></div>
+      </div>
+
+      <div class="grid-layout scroll-reveal">
+        <article class="project-node">
+          <span class="node-id">P.001</span>
+          <span class="node-link-icon">↗</span>
+          <h3>Portfolio Personal</h3>
+          <p>Sitio actual desarrollado con tecnologías nativas bajo un entorno de arquitectura limpia, diseño modular y layouts fluidos.</p>
+          <div class="node-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+          </div>
+        </article>
+
+        <div class="grid-dash js-dev-placeholder">
+          <span class="dash-icon">+</span>
+          <span class="dash-text">Asignar Proyecto</span>
+        </div>
+        <div class="grid-dash js-dev-placeholder">
+          <span class="dash-icon">+</span>
+          <span class="dash-text">Asignar Proyecto</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="design" class="section-container">
+      <div class="section-heading scroll-reveal">
+        <span class="section-index">03.</span>
+        <h2>Diseño Visual & Branding</h2>
+        <div class="heading-divider"></div>
+      </div>
+
+      <div class="grid-layout scroll-reveal">
+        <article class="design-node">
+          <div class="design-asset-wrapper">
+            <svg class="vector-blueprint" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30 70 L50 30 L70 70 Z" stroke="#e8ff47" stroke-width="1.2" stroke-linejoin="round"/>
+              <circle cx="50" cy="45" r="5" stroke="#ff4d4d" stroke-width="0.8"/>
+            </svg>
+          </div>
+          <div class="design-meta">
+            <span class="meta-category">Identity / Packaging</span>
+            <h3>Amano Panadería</h3>
+            <p>Diseño de marca tipográfica, conceptualización minimalista de elementos de packaging y manual de identidad visual.</p>
+          </div>
+        </article>
+
+        <div class="grid-dash js-design-placeholder">
+          <span class="dash-icon">+</span>
+          <span class="dash-text">Cargar Mockup</span>
+        </div>
+        <div class="grid-dash js-design-placeholder">
+          <span class="dash-icon">+</span>
+          <span class="dash-text">Cargar Mockup</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="cybersec" class="section-container">
+      <div class="section-heading scroll-reveal">
+        <span class="section-index">04.</span>
+        <h2>Investigación & Ciberseguridad</h2>
+        <div class="heading-divider"></div>
+      </div>
+
+      <div class="terminal-shell scroll-reveal">
+        <div class="shell-header">
+          <div class="shell-controls">
+            <span class="control-dot dot-close"></span>
+            <span class="control-dot dot-min"></span>
+            <span class="control-dot dot-expand"></span>
+          </div>
+          <span class="shell-prompt">root@alejouviedo:~# sec-audits --view</span>
+        </div>
+        <div class="shell-content">
+          
+          <div class="audit-log">
+            <span class="log-timestamp">[2026-05]</span>
+            <span class="log-badge badge-info">INFO</span>
+            <h4>Análisis de Incidente: Threat Intelligence Report</h4>
+            <p>Reconstrucción técnica integral de la cadena de compromiso (Cyber Kill Chain) basada en un escenario real de infección por ransomware mitigado. Documentación detallada de vectores primarios de acceso y mecanismos de persistencia local.</p>
+            <div class="log-spec">Frameworks: MITRE ATT&CK · OSINT Analysis · Post-Mortem Documentation</div>
+          </div>
+
+          <div class="audit-log js-sec-placeholder">
+            <span class="log-timestamp">[STAGED]</span>
+            <span class="log-badge badge-warn">WARN</span>
+            <h4>Laboratorio de Hardening e Infraestructura Segura</h4>
+            <p>Configuración de políticas restrictivas basadas en el principio de mínimo privilegio, auditoría de logs y bastionado perimetral sobre entornos aislados Unix.</p>
+            <div class="log-spec">Keywords: Docker · Netfilter/IPTables · Linux Hardening Linux</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-container">
+      <div class="section-heading scroll-reveal">
+        <span class="section-index">05.</span>
+        <h2>Contacto</h2>
+        <div class="heading-divider"></div>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-brief scroll-reveal">
+          <h3>¿Tenés un proyecto?<br>Hablemos.</h3>
+          <p>Disponible para integrarme a equipos de desarrollo, auditorías de seguridad iniciales y consultoría visual independiente.</p>
+
+          <div class="channel-list">
+            <a href="mailto:alejouviedoariel@gmail.com" class="channel-item">
+              <span class="channel-dot"></span>alejouviedoariel@gmail.com
+            </a>
+            <a href="https://github.com/AlejoUviedo" target="_blank" class="channel-item">
+              <span class="channel-dot"></span>github.com/AlejoUviedo
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper scroll-reveal">
+          <div class="field-row">
+            <label for="usr-name">Nombre completo</label>
+            <input type="text" id="usr-name" placeholder="John Doe" autocomplete="name"/>
+          </div>
+          <div class="field-row">
+            <label for="usr-email">Correo electrónico</label>
+            <input type="email" id="usr-email" placeholder="email@dominio.com" autocomplete="email"/>
+          </div>
+          <div class="field-row">
+            <label for="usr-msg">Mensaje</label>
+            <textarea id="usr-msg" placeholder="Describí brevemente el requerimiento técnico o comercial..."></textarea>
+          </div>
+          <button class="submit-action" id="submit-btn">Enviar mensaje →</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Alejo Uviedo — Todos los derechos reservados</span>
+    <span>AU_</span>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
